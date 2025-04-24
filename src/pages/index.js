@@ -13,7 +13,7 @@ const IndexPage = () => (
         alt="Lacrosse Association of India Logo" 
         className="mx-auto mb-6 w-36 h-36 object-contain"
       />
-      <h1 className="text-5xl">Welcome to Lacrosse Organization</h1>
+      <h1 className="text-5xl">Welcome to Lacrosse Association of India</h1>
       <p className="text-lg max-w-4xl mx-auto">
         Join our vibrant community dedicated to promoting lacrosse across the nation. Explore our teams, programs, and events!
       </p>
