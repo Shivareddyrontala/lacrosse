@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../../components/layout';
+import Mens from '../../images/image3.png';
 
 const MensTeam = () => (
   <Layout>
@@ -21,8 +22,9 @@ const MensTeam = () => (
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Our Team</h2>
         <div className="max-w-3xl mx-auto text-gray-600 leading-relaxed">
           <p className="mb-4">
-            India’s Men’s Lacrosse Team is composed of talented, high-performing athletes from across the country. With our debut at the international level in [Insert Year], we’ve shown that India has what it takes to compete at the highest level.
+            India’s Men’s Lacrosse Team is composed of talented, high-performing athletes from across the country. With our debut at the international level in [2025], we’ve shown that India has what it takes to compete at the highest level.
           </p>
+          <img src={Mens} alt="Men’s National Team" className="mt-4 mx-auto max-w-full h-auto" />
         </div>
       </div>
     </section>
@@ -33,9 +35,9 @@ const MensTeam = () => (
         <h3 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-12">Achievements</h3>
         <div className="max-w-3xl mx-auto">
           <ul className="text-gray-600 list-disc list-inside space-y-2">
-            <li>First appearance at [Tournament Name]</li>
-            <li>Ranked [X] in Asia Pacific</li>
-            <li>Multiple international goals scored in debut events</li>
+            <li>First appearance at Lacrosse Okinawa Open in Okinawa, Japan from February 19th to 22nd, 2025</li>
+            <li>Ranked 7th in Asia Pacific</li>
+            <li>Multiple international goals scored in the tournament</li>
           </ul>
         </div>
       </div>

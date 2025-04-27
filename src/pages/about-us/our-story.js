@@ -21,10 +21,13 @@ const OurStory = () => (
             <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Our Story</h2>
             <div className="max-w-3xl mx-auto text-gray-600 leading-relaxed">
               <p className="mb-4">
-                Lacrosse India is the official governing body for lacrosse in India, founded with the vision to bring one of the world’s fastest-growing sports to a nation known for its love of athleticism and teamwork. What started as a dream has now become a movement — led by passionate players, coaches, and volunteers who believe that lacrosse can be the next big sport in India.
+                Lacrosse was first introduced in India in 2008, led by Bijay Mipun, who is widely recognized as the pioneer and “father” of Indian lacrosse. What began as a modest effort to introduce a new sport soon grew into a national movement.
+              </p>
+              <p className="mb-4">
+                Under the leadership of Tausif Ahmad Lari, the game expanded across the country, resulting in the establishment of 25 state lacrosse associations. A landmark achievement came in 2024 with the inaugural National Lacrosse Championship held in Agra, featuring 480 athletes from 22 states competing across six divisions over three days.
               </p>
               <p>
-                We are proud to represent India on the global stage and are committed to developing the sport from the grassroots level. From hosting local workshops to competing internationally, Lacrosse India is laying the foundation for a thriving lacrosse ecosystem in the country.
+                In less than a year after the first national championship, India proudly fielded both Men’s and Women’s National Teams at international tournaments, marking the nation’s official entry onto the global lacrosse stage.
               </p>
             </div>
           </div>
@@ -39,18 +42,25 @@ const OurStory = () => (
               <div className="bg-gray-50 p-6 rounded-lg shadow-md">
                 <h4 className="text-xl font-semibold text-indigo-600 mb-4">Our Mission</h4>
                 <ul className="text-gray-600 list-disc list-inside space-y-2">
-                  <li>Building inclusive and accessible programs for youth and adults</li>
-                  <li>Supporting and training coaches and referees</li>
-                  <li>Hosting tournaments, leagues, and championships</li>
-                  <li>Representing India in international lacrosse events</li>
+                  <li>Grassroots Development: Introduce lacrosse in schools, colleges, and local communities to establish a strong foundation for the sport across India.</li>
+                  <li>Cross-Sport Transition: Provide opportunities and structured support to athletes from other sports who wish to transition to lacrosse.</li>
+                  <li>Training and Education: Offer training programs and educational resources to players, coaches, and officials to elevate the overall skill level.</li>
+                  <li>State-Level Readiness: Prepare athletes for state-level competition through comprehensive physical and tactical training.</li>
+                  <li>National-Level Participation: Facilitate pathways for players to advance from state-level play to national-level tournaments.</li>
+                  <li>International Collaboration: Partner with global lacrosse organizations to ensure India’s participation in international tournaments, meeting the standards of established lacrosse nations.</li>
+                  <li>Winning Medals: Develop a high-performance program with the goal of competing internationally and winning medals at world championships and multi-sport events.</li>
                 </ul>
               </div>
               {/* Vision */}
               <div className="bg-gray-50 p-6 rounded-lg shadow-md">
                 <h4 className="text-xl font-semibold text-indigo-600 mb-4">Our Vision</h4>
-                <p className="text-gray-600">
-                  To see India become a global lacrosse powerhouse by 2030, with strong grassroots participation, elite national teams, and a vibrant, supportive lacrosse community.
-                </p>
+                <ul className="text-gray-600 list-disc list-inside space-y-2">
+                  <li>Community Engagement: Build an inclusive lacrosse community involving schools, families, clubs, and volunteers to grow the sport nationally.</li>
+                  <li>Infrastructure Development: Create and improve lacrosse-specific facilities, including fields and training centers to support athletes at all levels.</li>
+                  <li>Participation at All Levels: Make lacrosse accessible to individuals of all ages from children to adults, across both small towns and major cities.</li>
+                  <li>Global Presence: Establish India as a respected global presence in lacrosse by ensuring consistent international participation and competitive performance.</li>
+                  <li>Olympic Aspirations: Set a clear path for the development of athletes and infrastructure, with the ultimate goal of representing India at the Olympics.</li>
+                </ul>
               </div>
             </div>
           </div>

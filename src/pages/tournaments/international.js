@@ -33,11 +33,28 @@ const International = () => (
             <h3 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-12">Events We Compete In</h3>
             <div className="max-w-3xl mx-auto">
               <ul className="text-gray-600 list-disc list-inside space-y-2">
-                <li>Asia Pacific Lacrosse Championships</li>
-                <li>World Lacrosse Sixes Tournaments</li>
-                <li>[Other events as scheduled]</li>
+                <li>Asian Lacrosse Games (ALG) in Samarkand, Uzbekistan from July 1st to 4th, 2024</li>
+                <li>Lacrosse Okinawa Open in Okinawa, Japan from February 19th to 22nd, 2025</li>
               </ul>
             </div>
+            <div className="max-w-3xl mx-auto text-gray-600 leading-relaxed">
+              <p className="mb-4">
+              These competitions provide our athletes with global exposure and allow them to test their skills against top-tier talent.
+              </p>
+            </div>
+          </div>
+        </section>
+
+              {/* Events Section */}
+        <section className="bg-white py-16">
+          <div className="container mx-auto px-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-12">India will be participating in:</h3>
+            <div className="max-w-3xl mx-auto">
+              <ul className="text-gray-600 list-disc list-inside space-y-2">
+                <li>Asian Lacrosse Games in Riyadh, Saudi Arabia from October 1st - October 5th, 2025</li>
+              </ul>
+            </div>
+
           </div>
         </section>
 
